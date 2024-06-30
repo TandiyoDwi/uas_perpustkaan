@@ -1,0 +1,66 @@
+.main{
+    height: 100vh;
+}
+.sidebar{
+    background: #5e5e5e;
+    color: #ffffff;
+}
+
+.sidebar a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover{
+    background: #000000;
+}
+
+.active{
+    background: #000000;
+    border-right: solid 8px orange;
+}
+
+.card-data{
+    border: solid 1px;
+    padding: 20px 50px;
+    color: #ffffff;
+}
+
+.card-data.book{
+    background-color: rgb(23, 80, 113);
+}
+
+.card-data.category{
+    background-color: rgb(37, 126, 179);
+}
+
+.card-data.user{
+    background-color: rgb(49, 163, 229);
+}
+
+.card-data i{
+    font-size: 80px;
+}
+
+.card-desc{
+    font-size: 30px;
+}
+
+.card-count{
+    font-size: 30px;
+}
+
+/* Gambar Cover List Buku */
+.card-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-img-top {
+    width: 100%; /* atau tentukan lebar yang diinginkan, contoh: 50% */
+    height: auto; /* Untuk mempertahankan rasio gambar */
+    max-width: 150px; /* Tentukan max-width sesuai kebutuhan Anda */
+}
