@@ -61,7 +61,8 @@
                             </a>
                             <a href="/rent-logs" @if(request()->route()->uri == 'rent-logs') class='active' @endif>Log Penyewaan</a>
                             <a href="/" @if(request()->route()->uri == '/') class='active' @endif>List Buku</a>
-                            <a href="/book-rent"  @if(request()->route()->uri == 'book-rent') class='active' @endif>Sewa Buku</a>
+                            <a href="/book-rent" @if(request()->route()->uri == 'book-rent') class='active' @endif>Sewa Buku</a>
+                            <a href="book-return" @if(request()->route()->uri == 'book-return') class='active' @endif>Pengembalian Buku</a>
                             <a href="/logout" >Logout</a>
                         @else
                             <a href="/profile" @if(request()->route()->uri == 'profile') class='active' @endif>Profile</a>
